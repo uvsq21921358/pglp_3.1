@@ -8,19 +8,22 @@
 
 
 4°) Créons classes et attribuons à chacune une seule responsabilité:
+
 * La classe abstraite Allemploye dediée au calcul du salaire des employers.
 	
-	public abstract class Allemploye{
-		public double salaire();
-		private String name
-		public void calculSalaire(){}
-	}
+		public abstract class Allemploye{
+			public double salaire();
+			private String name
+			public void calculSalaire(){}
+		}
+		
+		
 
-*La classe employe qui sera dediée à l'affichage
+* La classe employe qui sera dediée à l'affichage
 
-	Class employe2{
-		private String name
-		public void Affichage(){}
-	}
+		Class employe2{
+			private String name
+			public void Affichage(){}
+		}
 			
 	
